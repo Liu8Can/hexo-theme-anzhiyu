@@ -15,3 +15,9 @@
 canvas#universe {
   display: none;
 }
+
+[data-theme="dark"] #post #article-container,
+[data-theme="dark"] #post #article-container p,
+[data-theme="dark"] #post #article-container li {
+  color: var(--font-color);
+}
